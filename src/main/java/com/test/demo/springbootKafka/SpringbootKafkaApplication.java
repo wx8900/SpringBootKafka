@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Jack
- * @date 2019/07/24 22:45
+ * @date 2019/07/24 23:00
  *
  * Step 1: Download the 2.2.0 release and un-tar it.
  *   > wget http://us.mirrors.quenda.co/apache/kafka/2.2.0/kafka_2.12-2.2.0.tgz
@@ -40,6 +40,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *   you will see the return info:
  *   This is a message
  *   This is another message
+ * ----------------------------------------------
+ *   1. Upload Project to GitHub
+ *      VCS—>Import into Version Control—>Share Project on GitHub
+ *
+ *   2. Clone clones code on GitHub to local
+ *      VCS—>Checkout from Version Control—>Git-> copy the link from github, modify code in local and push to github
  */
 @SpringBootApplication
 public class SpringbootKafkaApplication {
